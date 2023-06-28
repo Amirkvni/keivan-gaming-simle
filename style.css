@@ -1,0 +1,240 @@
+/* fonts : */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+body{
+    font-family:  'vazir', sans-serif;
+    font-size: 1rem;
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+@media screen and (min-width: 992px) {
+    .carousel{
+        height: 585px;
+    }
+}
+/* pricing box : */
+.pricing-box:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.pricing-box{
+   transition: all 0.3s;
+}
+/* grid gallery : */
+.container1{
+    display: grid;
+    width: 1000px;
+    margin: 30px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 500px;
+    gap: 25px;
+}
+.item{
+    border: 1px solid black;
+    border-radius: 6px;
+    }
+.item1{
+    grid-column:1/3;
+    grid-row: 1/3;
+    background-image: url('https://www.dualmonitorbackgrounds.com/albums/gaming/warhammer40k-2.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.item2{
+    background-image: url('https://images5.alphacoders.com/941/thumbbig-941294.webp');
+    background-size: cover;
+    background-position: center ;
+
+}
+.item3{
+    background-image: url('https://images7.alphacoders.com/941/thumbbig-941884.webp');
+    background-size: cover;
+    /* background-position: center ; */
+
+}
+.item4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUIapkIAQqgX3N-mCQQ6vNDq8vZuWDu5S-FQ&usqp=CAU');
+    background-size: cover;
+    background-position: center ;
+
+}
+.item5{
+    background-image: url('https://w0.peakpx.com/wallpaper/589/749/HD-wallpaper-video-game-valorant-valorant-video-game-thumbnail.jpg');
+    background-size: cover;
+    background-position: center ;
+
+}
+
+.item6{
+    grid-column: 2/4;
+    grid-row: 3/5;
+    background-image: url('https://www.dualmonitorbackgrounds.com/albums/BabaYaga/cyberpank.jpg');
+    background-size: cover;
+    background-position: center ;
+}
+@media screen and (max-width:576px){
+    .container1{
+    display: grid;
+    margin: 20px -53px;
+    width: 400px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 500px;
+    gap: 25px;
+    }
+}
+.col .card .card-img-top{
+    height: 200px;
+    width: 200px;
+}
+/* ps5 products : */
+.ps-products .col:hover{
+    transform: scale(1.05);
+}
+.ps-products .row .card:hover{
+    background-color:cornsilk;
+}
+/* footer : */
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background:#273036;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
